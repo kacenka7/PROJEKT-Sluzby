@@ -1,0 +1,27 @@
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+.uvod{
+    width: 350px;
+    height: 291px;
+
+}
+
+h1{
+
+    text-align: center;
+    font-size: 28px;
+    font-family: "Montserrat";
+}
+
+p{
+    font-size: 15px;
+    text-align: center;
+    font-family: "Montserrat"
+}
+
+h2{
+    font-family: "Montserrat";
+    text-align: center;
+    font-size: 16px;
+}
