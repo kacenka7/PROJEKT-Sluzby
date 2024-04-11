@@ -1,10 +1,21 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
-.uvod{
+
+/* verze pro mobil */
+
+@media screen and  (max-width: 500px){
+    
+    
+/* hlaicka */
+.hlavicka{
+    text-align: center;
+    margin: 60px 0 42px 0;
+}
+
+.obrazek{
     width: 350px;
     height: 291px;
-
 }
 
 h1{
@@ -12,16 +23,70 @@ h1{
     text-align: center;
     font-size: 28px;
     font-family: "Montserrat";
+    margin: 39.5px 0 42px 0;
+ }
+
+
+/* uvod */
+
+.uvod{
+margin: 42px 20px ;
+
+}
+
+/* tlacitka */
+
+.dobrodruzstvi{
+ background-color: #407BFF;
+ color: white;
+ text-align: center;
+ border-radius: 20px;
+ width: 195px;
+ height: 40px;
+ font-size: 18px;
+ margin: 0;
+ padding: 0;
+}
+
+
+/* obecne */
+
+body{
+ background-color: #FAFAFA;   
 }
 
 p{
-    font-size: 15px;
+    color: #8B8B8B;
+    font-size: 13px;
     text-align: center;
     font-family: "Montserrat"
+    
+}
+
+.pismo1{
+    font-size:16px;
 }
 
 h2{
     font-family: "Montserrat";
     text-align: center;
     font-size: 16px;
+}
+h3{
+    color: #8B8B8B;
+    font-size: 15px;
+    text-align: center;
+    font-family: "Montserrat"
+    
+}
+.box{
+    background-color: white ;
+    box-shadow: 0px 4px 6px #407BFF1F;
+    border-radius:10px;
+    display: flex;
+    margin: 15px 20px;
+    height: 80px;
+}
+
+
 }
