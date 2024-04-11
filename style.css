@@ -2,15 +2,15 @@ html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
 
-/* verze pro mobil */
+/* ------------------verze pro mobil------------------ */
 
-@media screen and  (max-width: 500px){
+
     
     
 /* hlaicka */
 .hlavicka{
     text-align: center;
-    margin: 60px 0 42px 0;
+    margin: 60px 0 40px 0;
 }
 
 .obrazek{
@@ -23,7 +23,7 @@ h1{
     text-align: center;
     font-size: 28px;
     font-family: "Montserrat";
-    margin: 39.5px 0 42px 0;
+    margin: 40px 0 42px 0;
  }
 
 
@@ -36,16 +36,32 @@ margin: 42px 20px ;
 
 /* tlacitka */
 
-.dobrodruzstvi{
- background-color: #407BFF;
- color: white;
+.box-na-tlacitka{
+    margin: 41px 0 60px 0;
+}
+
+.odkaz{
+    font-size: 14px;
+    padding: 11px 30px;
+    color: white;
+    font-family: "Montserrat";
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.tlacitko{
  text-align: center;
- border-radius: 20px;
- width: 195px;
- height: 40px;
- font-size: 18px;
- margin: 0;
- padding: 0;
+ margin: 10px 0;
+}
+
+.dobrodruzstvi{
+    background-color: #407BFF;
+
+}
+
+.pohoda{
+    background-color: #8B8B8B ;
 }
 
 
@@ -71,6 +87,7 @@ h2{
     font-family: "Montserrat";
     text-align: center;
     font-size: 16px;
+    margin: 60px 0 17px 0;
 }
 h3{
     color: #8B8B8B;
@@ -88,5 +105,45 @@ h3{
     height: 80px;
 }
 
+/* pruhy s ikonama */
 
+.box-na-pruhy{
+
+    margin: 30px 0 60px 0;
 }
+
+.ikona{
+    height: 40px;
+    width: 45px;
+    margin: 20px;
+}
+
+.text{
+margin: 32px 20px 20px auto ;
+}
+
+
+/* ------------------verze pro tablet------------------ */
+
+@media screen and  (min-width: 640px){
+
+
+    /* tlacitka */
+
+    .box-na-tlacitka{
+        margin: 41px 0 60px 0;
+        display: flex;
+        justify-content: center;
+
+    }
+    .tlacitko{
+        text-align: center;
+        margin: 0 20px 0 0;
+       }
+
+    .pohoda{
+        margin: 0 ;
+    }
+    
+
+}   
