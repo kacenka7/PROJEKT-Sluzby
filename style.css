@@ -96,6 +96,15 @@ h3{
     font-family: "Montserrat"
     
 }
+
+
+/* pruhy s ikonama */
+
+.box-na-pruhy{
+
+    margin: 30px 0 60px 0;
+}
+
 .box{
     background-color: white ;
     box-shadow: 0px 4px 6px #407BFF1F;
@@ -103,13 +112,6 @@ h3{
     display: flex;
     margin: 15px 20px;
     height: 80px;
-}
-
-/* pruhy s ikonama */
-
-.box-na-pruhy{
-
-    margin: 30px 0 60px 0;
 }
 
 .ikona{
@@ -145,5 +147,24 @@ margin: 32px 20px 20px auto ;
         margin: 0 ;
     }
     
+    /*pruhy s ikonou*/
+
+    .box-na-pruhy{
+        display: flex;
+    }
+
+    .box{
+        display: block;
+        height: auto;
+        text-align: center;
+        
+    }
+    .text{
+        margin: 20px 15px;
+    }
+
+    .ikona{
+        margin: 40px 0 0 0;
+    }
 
 }   
