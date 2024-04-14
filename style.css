@@ -38,6 +38,7 @@ margin: 42px 20px ;
 
 .box-na-tlacitka{
     margin: 41px 0 60px 0;
+
 }
 
 .odkaz{
@@ -168,3 +169,87 @@ margin: 32px 20px 20px auto ;
     }
 
 }   
+
+/* ------------------verze pro pc------------------ */
+
+
+@media screen and  (min-width: 1100px){
+
+/* flexbox na celou stránku*/
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 60px 80px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.hlavicka{
+    flex-basis: 45%;
+    order: 2;
+    margin: 0;
+}
+
+.hlavicka img{
+    width: 100%;
+    height: 100%;
+}
+
+.uvod{
+    flex-basis: 55%;
+    order: 1;
+    margin: 0;  
+}
+.pismo1{
+    margin: 0 94px 0 0;
+    text-align: left;
+}
+
+.sluzby{
+    margin: 0 0 0 60px;
+}
+
+.box-na-tlacitka{
+    margin: 30px 0 0 0;
+    justify-content: left;
+}
+
+.sluzby-kancelare{
+    flex-basis: 50%;
+    order: 4;
+    padding: 0 0 0 60px;
+   
+}
+
+h2{
+    text-align: left;
+    margin: 0 0 17px 0;
+
+}
+
+.prvni{
+    flex-basis: 50%;
+    order: 3;
+    margin: 80px 0;
+}
+
+
+.sluzby-delegatu{
+    flex-basis: 50%;
+    order: 5;
+}
+.druhy{
+    flex-basis: 50%;
+    order: 6;
+    margin: 0;
+}
+
+.box{
+    margin: 0 15px;
+}
+
+
+} 
